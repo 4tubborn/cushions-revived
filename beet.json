@@ -1,0 +1,25 @@
+{
+  "author": "4tubborn",
+  "description": "Duplicate items like it's April Fools' Day!",
+  "data_pack": {
+    "zipped": false,
+    "name": "Cushions Revived {{ version }}",
+    "load": ["datapack"]
+  },
+  "resource_pack": {
+    "zipped": false,
+    "name": "Cushions Revived RP {{ version }}",
+    "load": ["resourcepack"]
+  },
+  "pipeline": [
+    "beet.contrib.render",
+    "scripts.model",
+    "scripts.container",
+    "beet.contrib.minify_function",
+    "beet.contrib.minify_json"
+  ],
+  "meta": {
+    "version": "v0.2.0"
+  },
+  "output": "build"
+}

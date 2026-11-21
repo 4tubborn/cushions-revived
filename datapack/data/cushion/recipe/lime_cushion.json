@@ -1,0 +1,50 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "cc"
+    ],
+    "key": {
+        "c": "minecraft:lime_carpet"
+    },
+    "result": {
+        "id": "minecraft:bat_spawn_egg",
+        "count": 1,
+        "components": {
+            "minecraft:entity_data": {
+                "id": "item_display",
+                "Tags": [
+                    "cushion.lime",
+                    "cushion.cushion",
+                    "cushion.init"
+                ],
+                "item": {
+                    "id": "recovery_compass",
+                    "components": {
+                        "minecraft:item_name": {
+                            "translate": "item.minecraft.lime_cushion",
+                            "fallback": "Lime Cushion"
+                        },
+                        "item_model": "minecraft:block/lime_cushion",
+                        "custom_data": {
+                            "color": "lime"
+                        }
+                    }
+                },
+                "Rotation": [
+                    0,
+                    0
+                ]
+            },
+            "minecraft:item_name": {
+                "translate": "item.minecraft.lime_cushion",
+                "fallback": "Lime Cushion"
+            },
+            "minecraft:item_model": "minecraft:lime_cushion",
+            "minecraft:max_stack_size": 16,
+            "minecraft:custom_data": {
+                "id": "cushion",
+                "color": "lime"
+            }
+        }
+    }
+}

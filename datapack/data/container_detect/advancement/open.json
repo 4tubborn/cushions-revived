@@ -1,0 +1,37 @@
+{
+    "criteria": {
+        "chest": {
+            "trigger": "default_block_use",
+            "conditions": {
+                "player": [
+                ],
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "#container_detect:containers"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "inverted",
+                        "term": {
+                            "condition": "location_check",
+                            "predicate": {
+                                "block": {
+                                    "components": {
+                                        "lock": {}
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "container_detect:open"
+    }
+}

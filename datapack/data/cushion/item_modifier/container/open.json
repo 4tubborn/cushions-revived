@@ -1,0 +1,15 @@
+{
+    "function": "filtered",
+    "item_filter": {
+        "items": "bat_spawn_egg",
+        "predicates": {
+            "custom_data": {
+                "id": "cushion"
+            }
+        }
+    },
+    "on_pass": {
+        "function": "set_item",
+        "item": "scaffolding"
+    }
+}

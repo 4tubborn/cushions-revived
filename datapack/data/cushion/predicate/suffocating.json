@@ -1,0 +1,43 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "fire"
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "#cushion:suffocating"
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "#minecraft:slabs",
+                    "state": {
+                        "type": "double"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "#cushion:pistons",
+                    "state": {
+                        "extended": "false"
+                    }
+                }
+            }
+        }
+    ]
+}

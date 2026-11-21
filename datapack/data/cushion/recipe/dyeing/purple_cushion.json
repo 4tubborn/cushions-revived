@@ -1,0 +1,48 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "minecraft:bat_spawn_egg",
+        "minecraft:purple_dye"
+    ],
+    "result": {
+        "id": "minecraft:bat_spawn_egg",
+        "count": 1,
+        "components": {
+            "minecraft:entity_data": {
+                "id": "item_display",
+                "Tags": [
+                    "cushion.purple",
+                    "cushion.cushion",
+                    "cushion.init"
+                ],
+                "item": {
+                    "id": "recovery_compass",
+                    "components": {
+                        "minecraft:item_name": {
+                            "translate": "item.minecraft.purple_cushion",
+                            "fallback": "Purple Cushion"
+                        },
+                        "item_model": "minecraft:block/purple_cushion",
+                        "custom_data": {
+                            "color": "purple"
+                        }
+                    }
+                },
+                "Rotation": [
+                    0,
+                    0
+                ]
+            },
+            "minecraft:item_name": {
+                "translate": "item.minecraft.purple_cushion",
+                "fallback": "Purple Cushion"
+            },
+            "minecraft:item_model": "minecraft:purple_cushion",
+            "minecraft:max_stack_size": 16,
+            "minecraft:custom_data": {
+                "id": "cushion",
+                "color": "purple"
+            }
+        }
+    }
+}

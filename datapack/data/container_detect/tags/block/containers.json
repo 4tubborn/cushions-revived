@@ -1,0 +1,20 @@
+{
+    "values": [
+        "furnace",
+        "blast_furnace",
+        "smoker",
+        "chest",
+        "trapped_chest",
+        "#shulker_boxes",
+        {
+            "id": "#copper_chests",
+            "required": false
+        },
+        "barrel",
+        "brewing_stand",
+        "dispenser",
+        "dropper",
+        "hopper",
+        "crafter"
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "minecraft:bat_spawn_egg",
+        "minecraft:pink_dye"
+    ],
+    "result": {
+        "id": "minecraft:bat_spawn_egg",
+        "count": 1,
+        "components": {
+            "minecraft:entity_data": {
+                "id": "item_display",
+                "Tags": [
+                    "cushion.pink",
+                    "cushion.cushion",
+                    "cushion.init"
+                ],
+                "item": {
+                    "id": "recovery_compass",
+                    "components": {
+                        "minecraft:item_name": {
+                            "translate": "item.minecraft.pink_cushion",
+                            "fallback": "Pink Cushion"
+                        },
+                        "item_model": "minecraft:block/pink_cushion",
+                        "custom_data": {
+                            "color": "pink"
+                        }
+                    }
+                },
+                "Rotation": [
+                    0,
+                    0
+                ]
+            },
+            "minecraft:item_name": {
+                "translate": "item.minecraft.pink_cushion",
+                "fallback": "Pink Cushion"
+            },
+            "minecraft:item_model": "minecraft:pink_cushion",
+            "minecraft:max_stack_size": 16,
+            "minecraft:custom_data": {
+                "id": "cushion",
+                "color": "pink"
+            }
+        }
+    }
+}

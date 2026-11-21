@@ -1,0 +1,36 @@
+{
+    "criteria": {
+        "type1": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "player",
+                                "advancements": {
+                                    "container_detect:open": true
+                                }
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "items": "recovery_compass",
+                        "predicates": {
+                            "custom_data": {
+                                "cushion": "container_placeholder"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "container_detect:close_empty"
+    }
+}

@@ -1,0 +1,350 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "alternatives",
+                    "children": [
+                        {
+                            "type": "loot_table",
+                            "value": "cushion:white_cushion",
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "slots": {
+                                            "contents": {
+                                                "predicates": {
+                                                    "custom_data": {
+                                                        "color": "white"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "loot_table",
+                            "value": "cushion:orange_cushion",
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "slots": {
+                                            "contents": {
+                                                "predicates": {
+                                                    "custom_data": {
+                                                        "color": "orange"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "loot_table",
+                            "value": "cushion:magenta_cushion",
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "slots": {
+                                            "contents": {
+                                                "predicates": {
+                                                    "custom_data": {
+                                                        "color": "magenta"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "loot_table",
+                            "value": "cushion:light_blue_cushion",
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "slots": {
+                                            "contents": {
+                                                "predicates": {
+                                                    "custom_data": {
+                                                        "color": "light_blue"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "loot_table",
+                            "value": "cushion:yellow_cushion",
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "slots": {
+                                            "contents": {
+                                                "predicates": {
+                                                    "custom_data": {
+                                                        "color": "yellow"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "loot_table",
+                            "value": "cushion:lime_cushion",
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "slots": {
+                                            "contents": {
+                                                "predicates": {
+                                                    "custom_data": {
+                                                        "color": "lime"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "loot_table",
+                            "value": "cushion:pink_cushion",
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "slots": {
+                                            "contents": {
+                                                "predicates": {
+                                                    "custom_data": {
+                                                        "color": "pink"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "loot_table",
+                            "value": "cushion:gray_cushion",
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "slots": {
+                                            "contents": {
+                                                "predicates": {
+                                                    "custom_data": {
+                                                        "color": "gray"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "loot_table",
+                            "value": "cushion:light_gray_cushion",
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "slots": {
+                                            "contents": {
+                                                "predicates": {
+                                                    "custom_data": {
+                                                        "color": "light_gray"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "loot_table",
+                            "value": "cushion:cyan_cushion",
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "slots": {
+                                            "contents": {
+                                                "predicates": {
+                                                    "custom_data": {
+                                                        "color": "cyan"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "loot_table",
+                            "value": "cushion:purple_cushion",
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "slots": {
+                                            "contents": {
+                                                "predicates": {
+                                                    "custom_data": {
+                                                        "color": "purple"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "loot_table",
+                            "value": "cushion:blue_cushion",
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "slots": {
+                                            "contents": {
+                                                "predicates": {
+                                                    "custom_data": {
+                                                        "color": "blue"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "loot_table",
+                            "value": "cushion:brown_cushion",
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "slots": {
+                                            "contents": {
+                                                "predicates": {
+                                                    "custom_data": {
+                                                        "color": "brown"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "loot_table",
+                            "value": "cushion:green_cushion",
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "slots": {
+                                            "contents": {
+                                                "predicates": {
+                                                    "custom_data": {
+                                                        "color": "green"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "loot_table",
+                            "value": "cushion:red_cushion",
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "slots": {
+                                            "contents": {
+                                                "predicates": {
+                                                    "custom_data": {
+                                                        "color": "red"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "loot_table",
+                            "value": "cushion:black_cushion",
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "slots": {
+                                            "contents": {
+                                                "predicates": {
+                                                    "custom_data": {
+                                                        "color": "black"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

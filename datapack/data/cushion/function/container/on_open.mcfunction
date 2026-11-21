@@ -1,0 +1,1 @@
+item modify entity @s container.0 container_detect:open

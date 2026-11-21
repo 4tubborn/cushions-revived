@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "light": {
+            "trigger": "lightning_strike",
+            "conditions": {
+                "bystander": {
+                    "type": "item_display",
+                    "nbt": {"Tags": ["cushion.cushion"]}
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "cushion:lightning_strike"
+    }
+}

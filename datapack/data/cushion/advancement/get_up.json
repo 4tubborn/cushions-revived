@@ -1,0 +1,31 @@
+{
+    "criteria": {
+        "trigger": {
+            "trigger": "tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": {"Tags":["cushion.sit"]}
+                        }
+                    },
+                    {
+                        "condition": "inverted",
+                        "term": {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "vehicle": {}
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "cushion:get_up"
+    }
+}
