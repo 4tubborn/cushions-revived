@@ -1,12 +1,6 @@
 
 from beet import Context, ItemModel, Model
-
-COLORS = (
-    "white", "orange", "magenta", "light_blue",
-    "yellow", "lime", "pink", "gray",
-    "light_gray", "cyan", "purple", "blue",
-    "brown", "green", "red", "black",
-)
+from scripts import COLORS
 
 def beet_default(ctx: Context):
 

@@ -1,0 +1,73 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "cushion:white_cushion"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "cushion:orange_cushion"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "cushion:magenta_cushion"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "cushion:light_blue_cushion"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "cushion:yellow_cushion"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "cushion:lime_cushion"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "cushion:pink_cushion"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "cushion:gray_cushion"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "cushion:light_gray_cushion"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "cushion:cyan_cushion"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "cushion:purple_cushion"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "cushion:blue_cushion"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "cushion:brown_cushion"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "cushion:green_cushion"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "cushion:red_cushion"
+                },
+                {
+                    "type": "loot_table",
+                    "value": "cushion:black_cushion"
+                }
+            ]
+        }
+    ]
+}

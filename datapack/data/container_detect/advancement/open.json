@@ -1,6 +1,6 @@
 {
     "criteria": {
-        "chest": {
+        "block": {
             "trigger": "default_block_use",
             "conditions": {
                 "player": [
@@ -29,8 +29,17 @@
                     }
                 ]
             }
+        },
+        "enttiy": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "#container_detect:containers"
+                }
+            }
         }
     },
+    "requirements": [["block","enttiy"]],
     "rewards": {
         "function": "container_detect:open"
     }

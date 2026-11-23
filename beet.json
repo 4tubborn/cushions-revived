@@ -13,8 +13,7 @@
   },
   "pipeline": [
     "beet.contrib.render",
-    "scripts.model",
-    "scripts.container",
+    "scripts",
     "beet.contrib.minify_function",
     "beet.contrib.minify_json"
   ],

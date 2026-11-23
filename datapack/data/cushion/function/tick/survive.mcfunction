@@ -1,6 +1,6 @@
 #execute if entity @n[type=lightning_bolt,distance=..0.5] run return run function cushion:break/_
 execute if block ~ ~ ~ moving_piston run return run function cushion:break/_
-execute if entity @n[type=#impact_projectiles,distance=..0.6] run return run function cushion:break/remove
+execute if entity @n[type=#impact_projectiles,distance=..0.6,predicate=cushion:can_break] run return run function cushion:break/remove
 
 execute unless score @s cushion.timer matches 0 run return fail
 

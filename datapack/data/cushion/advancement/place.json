@@ -7,7 +7,12 @@
                     {
                         "condition": "match_tool",
                         "predicate": {
-                            "items": "bat_spawn_egg"
+                            "items": "bat_spawn_egg",
+                            "predicates": {
+                                "custom_data": {
+                                    "id": "cushion"
+                                }
+                            }
                         }
                     }
                 ]

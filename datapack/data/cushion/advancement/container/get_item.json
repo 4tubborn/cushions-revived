@@ -1,0 +1,37 @@
+{
+    "criteria": {
+        "item": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [{
+                    "items": "scaffolding",
+                    "predicates": {
+                        "custom_data": {
+                            "id": "cushion"
+                        }
+                    }
+                }],
+                "player": [
+                    {
+                        "condition": "inverted",
+                        "term": {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type_specific": {
+                                    "type": "player",
+                                    "advancements": {
+                                        "container_detect:open": true
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "cushion:container/get_item"
+    }
+}
